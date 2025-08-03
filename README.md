@@ -58,7 +58,7 @@ Traditional systems often fail against novel attacks. This system proposes an **
 
 The full dataset and preprocessed files can be downloaded from the shared folder below:
 
-[SecureNet Dataset on Google Drive](https://drive.google.com/drive/folders/1GDJVCc7ZaamCgwVKqco8IxDFOj49yRfk?usp=sharing))
+[SecureNet Dataset on Google Drive](https://drive.google.com/drive/folders/1GDJVCc7ZaamCgwVKqco8IxDFOj49yRfk?usp=sharing)
 
 
 ---
@@ -72,13 +72,13 @@ Initial exploration helped us understand the dataset's structure, size, and pote
 - High cardinality in certain categorical fields.
 
 ### a. Loading and merging data
-![Loading Data](01-loading-and-merging-files.png)
+![Loading Data](screenshot/01-python/01-loading-and-merging-files.png)
 
 ### b. Data Exploration  
-![Data Exploration](01-data-exploration.png)
+![Data Exploration](screenshot/01-python/01-data-exploration.png)
 
 ###  c. Network Feature Analysis  
-![Network Feature Analysis](01-network-feature-analysis.png)
+![Network Feature Analysis](screenshot/01-python/01-network-feature-analysis.png)
 
 ```python
 for feature in ['Flow Duration', 'Total Fwd Packets']:
@@ -92,7 +92,7 @@ for feature in ['Flow Duration', 'Total Fwd Packets']:
 ```
 
 ### d. Anomaly Detection
-![Anomaly Detectiont](01-anomaly-detection.png)
+![Anomaly Detectiont](screenshot/01-python/01-anomaly-detection.png)
 ```python
 Q1 = df[feature].quantile(0.25)
 Q3 = df[feature].quantile(0.75)
@@ -156,19 +156,19 @@ Statistical and visual exploration revealed traffic patterns and attack type dis
 - Certain protocols and ports were linked with specific types of attacks.
 
 ### Attack Type Distribution
-![Attack Type Distribution](03-attack-type-analysis-eda.png)
+![Attack Type Distribution](screenshot/01-python/03-attack-type-analysis-eda.png)
 
 ### Protocol Analysis
-![Protocol Analysis](03-protocal-analysis-eda.png)
+![Protocol Analysis](screenshot/01-python/03-protocal-analysis-eda.png)
 
 ### Hourly Traffic Analysis
-![Hourly Traffic Analysisn](03-houly-traffic-patterns-eda.png)
+![Hourly Traffic Analysisn](screenshot/01-python/03-houly-traffic-patterns-eda.png)
 
 ### Traffic Flow Analysis
-![Traffic Flow Analysis](03-traffick-flow-analysis-eda.png)
+![Traffic Flow Analysis](screenshot/01-python/03-traffick-flow-analysis-eda.png)
 
 ### Anomaly Detection Analysis 
-![Anomaly Detection Analysis](03-anomaly-detection-feature-analysis-eda.png)
+![Anomaly Detection Analysis](screenshot/01-python/03-anomaly-detection-feature-analysis-eda.png)
 
 ---
 
@@ -199,7 +199,7 @@ We created new traffic-based features that helped capture the behavior of suspic
 
 
 **Model Trainhg process**
-![Model Training Process](04-model-training-progress.png)
+![Model Training Process](screenshot/01-python/04-model-training-progress.png)
 
 ###  Key Innovations
 
@@ -429,6 +429,7 @@ Run the Jupyter notebooks step-by-step in the following order:
 
 - **Canadian Institute for Cybersecurity (CIC)** – For providing the [CIC-IDS2017 dataset](https://www.unb.ca/cic/datasets/ids-2017.html).
 - **Lecture**-[Eric Maniraguha](https://github.com/ericmaniraguha)
+
 
 
 
