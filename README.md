@@ -263,7 +263,7 @@ Run the Jupyter notebooks step-by-step in the following order:
 - **Trends**: Real-time network attack monitoring
 - **Geographic**: Global threat distribution map
 
-![Executive Overview](screenshot/02-powerbi/02-executive-overview.png)
+![Executive Overview](screenshot/02-powerbi/02-excutive-overview.png)
 
 ---
 
@@ -429,6 +429,7 @@ Run the Jupyter notebooks step-by-step in the following order:
 
 - **Canadian Institute for Cybersecurity (CIC)** – For providing the [CIC-IDS2017 dataset](https://www.unb.ca/cic/datasets/ids-2017.html).
 - **Lecture**-[Eric Maniraguha](https://github.com/ericmaniraguha)
+
 
 
 
