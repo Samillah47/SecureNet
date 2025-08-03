@@ -56,8 +56,8 @@ Traditional systems often fail against novel attacks. This system proposes an **
 
 ###  Download Project Files
 
-The full dataset and preprocessed files can be downloaded from the shared folder below:
-
+Due to GitHub file size limitations, some of the larger dataset and preprocessed files could not be uploaded directly to this repository.  
+You can download the complete dataset and related files from the shared Google Drive folder below:
 [SecureNet Dataset on Google Drive](https://drive.google.com/drive/folders/1GDJVCc7ZaamCgwVKqco8IxDFOj49yRfk?usp=sharing)
 
 
@@ -429,6 +429,7 @@ Run the Jupyter notebooks step-by-step in the following order:
 
 - **Canadian Institute for Cybersecurity (CIC)** – For providing the [CIC-IDS2017 dataset](https://www.unb.ca/cic/datasets/ids-2017.html).
 - **Lecture**-[Eric Maniraguha](https://github.com/ericmaniraguha)
+
 
 
 
