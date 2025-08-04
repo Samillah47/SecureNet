@@ -141,10 +141,11 @@ class NetworkDataPreprocessor:
 - Standardized numerical data for better ML model performance.
 
 ### Before 
-![Data Preprocessing](screenshots/01-python/02-data-preprocessing.png)
+![Data Preprocessing](screenshot/01-python/02-data-preprocessing.png)
 
 ### After 
-![Data Preprocessing](02-data-preprocessing-results.png)
+![Data Preprocessing](screenshot/01-python/02-data-preprocessing-results.png)
+
 ---
 
 ##  Exploratory Data Analysis (EDA)
@@ -430,6 +431,7 @@ Run the Jupyter notebooks step-by-step in the following order:
 
 - **Canadian Institute for Cybersecurity (CIC)** – For providing the [CIC-IDS2017 dataset](https://www.unb.ca/cic/datasets/ids-2017.html).
 - **Lecture**-[Eric Maniraguha](https://github.com/ericmaniraguha)
+
 
 
 
